@@ -5,9 +5,15 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-RabbitMQ.Client", "01-RabbitMQ.Client", "{89B0A1B6-2802-4830-8F0B-0BD269E4AFB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQClientPublishe.Console", "RabbitMQClient.Console\RabbitMQClientPublishe.Console.csproj", "{7793E980-7BDC-4098-B4CF-31ADC1844E4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQClientPublishe.Console", "RabbitMQClient.Console\RabbitMQClientPublishe.Console.csproj", "{7793E980-7BDC-4098-B4CF-31ADC1844E4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQClientConsumer.Console", "RabbitMQClientConsumer.Console\RabbitMQClientConsumer.Console.csproj", "{82A41174-3FE3-4390-8691-446F9899DB52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQClientConsumer.Console", "RabbitMQClientConsumer.Console\RabbitMQClientConsumer.Console.csproj", "{82A41174-3FE3-4390-8691-446F9899DB52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQClient.Customers.API", "RabbitMQClient.Customers.API\RabbitMQClient.Customers.API.csproj", "{2E178E33-EC39-45EB-9937-A17700C7B606}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Padrao_Publish_Subscrib", "Padrao_Publish_Subscrib", "{A4B1117A-49F7-4CF7-AFBC-0804752FA27E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publish", "Publish", "{571FE221-86F5-4034-A73F-81CB58A175BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,10 @@ Global
 		{82A41174-3FE3-4390-8691-446F9899DB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82A41174-3FE3-4390-8691-446F9899DB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82A41174-3FE3-4390-8691-446F9899DB52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E178E33-EC39-45EB-9937-A17700C7B606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E178E33-EC39-45EB-9937-A17700C7B606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E178E33-EC39-45EB-9937-A17700C7B606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E178E33-EC39-45EB-9937-A17700C7B606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +40,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7793E980-7BDC-4098-B4CF-31ADC1844E4D} = {89B0A1B6-2802-4830-8F0B-0BD269E4AFB7}
 		{82A41174-3FE3-4390-8691-446F9899DB52} = {89B0A1B6-2802-4830-8F0B-0BD269E4AFB7}
+		{2E178E33-EC39-45EB-9937-A17700C7B606} = {571FE221-86F5-4034-A73F-81CB58A175BE}
+		{A4B1117A-49F7-4CF7-AFBC-0804752FA27E} = {89B0A1B6-2802-4830-8F0B-0BD269E4AFB7}
+		{571FE221-86F5-4034-A73F-81CB58A175BE} = {A4B1117A-49F7-4CF7-AFBC-0804752FA27E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5730145-189E-4556-AEF1-9D3A7A0F369A}
