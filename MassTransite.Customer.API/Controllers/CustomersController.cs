@@ -21,7 +21,7 @@ namespace MassTransite.Customer.API.Controllers
         {
             var @event = new CreateCustomerInputModel(model.Id, model.Name, model.Document,model.Email);
 
-            _bus.Publish(@event);
+            await _bus.Publish(@event);
 
             return NoContent();
         }

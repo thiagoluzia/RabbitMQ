@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Subscribe", "Subscribe", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransite.Customer.API", "MassTransite.Customer.API\MassTransite.Customer.API.csproj", "{14D20CE7-8B32-46D5-909C-DEE919D2656E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransite.Marketing.API", "MassTransite.Marketing.API\MassTransite.Marketing.API.csproj", "{341AF763-94C2-4857-BF7C-1BF40FFEDC53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{14D20CE7-8B32-46D5-909C-DEE919D2656E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14D20CE7-8B32-46D5-909C-DEE919D2656E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14D20CE7-8B32-46D5-909C-DEE919D2656E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341AF763-94C2-4857-BF7C-1BF40FFEDC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341AF763-94C2-4857-BF7C-1BF40FFEDC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341AF763-94C2-4857-BF7C-1BF40FFEDC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341AF763-94C2-4857-BF7C-1BF40FFEDC53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +74,7 @@ Global
 		{251AABFE-4CEA-49F5-A5FD-FAC60954D298} = {5622B55F-EACD-4DEB-87DB-D6E69AF291E9}
 		{0E95534E-CFB9-4579-84D5-73BDEB5183AC} = {5622B55F-EACD-4DEB-87DB-D6E69AF291E9}
 		{14D20CE7-8B32-46D5-909C-DEE919D2656E} = {251AABFE-4CEA-49F5-A5FD-FAC60954D298}
+		{341AF763-94C2-4857-BF7C-1BF40FFEDC53} = {0E95534E-CFB9-4579-84D5-73BDEB5183AC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C5730145-189E-4556-AEF1-9D3A7A0F369A}

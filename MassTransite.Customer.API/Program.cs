@@ -16,10 +16,22 @@ builder.Services.AddMassTransit(c =>
 {
     c.UsingRabbitMq((context, config) =>
     {
-        config.ConfigureEndpoints(context);
+        config.ReceiveEndpoint("customer-created-masstransit", e =>
+        {
+            e.Bind("MassTransite.Customer.API.DTO:CreateCustomerInputModel", x =>
+            {
+                x.Durable = false;
+                x.AutoDelete = true;
+                x.ExchangeType = "fanout";
+                x.RoutingKey = "customer-created-masstransit";
+            });
+        });
+
+        //config.ConfigureEndpoints(context);
     });
 
 });
+
 
 var app = builder.Build();
 
